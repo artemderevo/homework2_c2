@@ -13,6 +13,6 @@ public class Main {
         ServiceStation station = new ServiceStation();
         for (Serviceable transport : transports)
         station.check(transport);
-        System.out.println(" ");
+        System.out.println("");
     }
 }
